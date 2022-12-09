@@ -33,5 +33,18 @@ public final class Constants {
         // TODO: test input range
         // value from bones not blockHead
         public static final double MIN_MOTOR_INPUT = 0.0;
+
+    }
+    
+    public static final class PneumaticConstants {
+        public static final int PH_CAN_ID = 17;
+
+        public static final double MAX_TANK_PSI = 117;
+        public static final double MIN_TANK_PSI = 110;
+    }
+    
+    public static final class IntakeConstants {
+        public static final int CLAW_PNEUMATIC_PORT = 9; // TODO: get port
+        public static final int CLAWEVATOR_PNEUMATIC_PORT = 8; // TODO: get port
     }
 }

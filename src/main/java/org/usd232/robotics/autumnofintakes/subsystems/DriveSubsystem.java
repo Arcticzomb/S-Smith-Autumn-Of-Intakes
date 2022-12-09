@@ -18,7 +18,7 @@ public class DriveSubsystem extends SubsystemBase {
      */
     // @SuppressWarnings("unused")
     private static final Logger LOG = new Logger();
-
+// this does some fun stuff just so you all know (I don't know what it does)
     private final Talon leftMotor;
     private final Talon rightMotor;
     private final DifferentialDrive differentialDrive;
